@@ -1,0 +1,82 @@
+.top {
+    background-color: brown;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    height: 50px;
+    margin-top: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.top span {
+    margin-left: 10px;
+}
+
+.images {
+    background-color: pink;
+    width: 80%;
+    margin: 25px auto;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.images h2 {
+    color: blue;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.images p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container img {
+    margin-top: 20px;
+    padding: 0px;
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+    /* transition: transform 0.2s; */
+}
+
+.image {
+    /* border-radius: 25px; */
+    position: relative;
+    overflow: hidden;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.6s, visibility 0.3s ;
+    color: black; /* Color of the camera icon */
+    font-size: 4em; /* Size of the camera icon */
+   
+}
+
+.image:hover .icon {
+    opacity: 2;
+    visibility: visible;
+}
+.container img:hover{
+    filter: grayscale(15);
+    
+   
+}

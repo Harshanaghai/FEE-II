@@ -1,0 +1,99 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.stick {
+    display: flex;
+    margin-top: -20px;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0; /* Stick to the top */
+    z-index: 1000; /* Make sure it is on top of other elements */
+    background-color: #fff; /* Add background to avoid overlap issues */
+    padding: 10px 0;
+}
+
+.icon {
+    margin-right: 550px;
+}
+
+
+.icon2 {
+    height: 26px;
+    margin-bottom: 30px;
+}
+
+.icon3 {
+    margin-bottom: 20px;
+    height: 46px;
+    margin-right: 100px;
+}
+
+.click {
+    margin-top: 35px;
+}
+
+.readmore {
+    margin-left: 380px;
+    width: 80px;
+    margin-top: -35px;
+}
+.readmore:hover{
+    cursor: pointer;
+    color: #116dff;
+
+}
+
+.edit {
+    margin-top: 27px;
+    height: 40px;
+    width: 160px; 
+    margin-left: 30px;
+    border-radius: 25px;
+    background-color: #116dff;
+    border: none;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.navbar {
+
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 60px; /* Adjust this value based on the height of .stick */
+    z-index: 1000; /* Make sure it is on top of other elements */
+    display: flex;
+    background-color: rgba(13, 13, 13, 0.751);
+    color: white;
+    width: 100%;
+    height: 70px;
+}
+
+.navbar div {
+    margin-right: 60px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.one {
+    margin-left: 400px;
+    margin-right: 50px;
+}
+
+.six {
+    display: flex;
+    align-items: center;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 43px;
+   
+}
+
+.login-icon {
+    margin-right: 5px; /* Adjust the spacing between the icon and the text */
+    font-size: 18px; /* Adjust the size of the icon */
+   
+}
