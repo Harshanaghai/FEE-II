@@ -1,83 +1,98 @@
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+/* html, body {
+    overflow-x: hidden;
+    width: 100%;
+} */
+
 .stick {
-    display: flex;
-    margin-top: -20px;
-    position: -webkit-sticky; /* For Safari */
     position: sticky;
-    top: 0; /* Stick to the top */
-    z-index: 1000; /* Make sure it is on top of other elements */
-    background-color: #fff; /* Add background to avoid overlap issues */
-    padding: 10px 0;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    top: 0;
+    z-index: 1000;
+    background-color: #fff;
+    width: 100%;
+    height: 10vh;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.icon {
-    margin-right: 550px;
-}
+/* .icon2, .icon3 {
+    height: 46px;
+    margin-right: 10px;
 
+} */
 
 .icon2 {
     height: 26px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+}
+.icon3 {
+    height: 46px;
+    margin-top: 10px;
 }
 
-.icon3 {
-    margin-bottom: 20px;
-    height: 46px;
-    margin-right: 100px;
-}
 
 .click {
-    margin-top: 35px;
+    margin-top: 26px;
+    width: fit-content;
 }
 
 .readmore {
     margin-left: 380px;
     width: 80px;
-    margin-top: -35px;
+    margin-top: -16px;
+    margin-right: 42px;
+    font-size: 13px;
 }
-.readmore:hover{
+
+.readmore:hover {
     cursor: pointer;
     color: #116dff;
-
 }
 
 .edit {
-    margin-top: 27px;
     height: 40px;
-    width: 160px; 
-    margin-left: 30px;
+    width: 160px;
     border-radius: 25px;
     background-color: #116dff;
     border: none;
     color: white;
     font-weight: 400;
     font-size: 15px;
+    margin-top: 15px;
 }
 
 .navbar {
-
-    position: -webkit-sticky; /* For Safari */
     position: sticky;
-    top: 60px; /* Adjust this value based on the height of .stick */
-    z-index: 1000; /* Make sure it is on top of other elements */
     display: flex;
-    background-color: rgba(13, 13, 13, 0.751);
+    justify-content: space-around;
+    align-items: center;
+    top: 72px;
+    /* z-index: 999; */
+    background-color: black;
     color: white;
     width: 100%;
     height: 70px;
 }
 
 .navbar div {
-    margin-right: 60px;
-    margin-top: 25px;
     font-size: 20px;
 }
 
+.navbar div:hover {
+    color: gray;
+}
+
 .one {
-    margin-left: 400px;
-    margin-right: 50px;
+    margin-left: 0;
 }
 
 .six {
@@ -88,12 +103,61 @@
 .login-container {
     display: flex;
     align-items: center;
-    margin-bottom: 43px;
-   
 }
 
 .login-icon {
-    margin-right: 5px; /* Adjust the spacing between the icon and the text */
-    font-size: 18px; /* Adjust the size of the icon */
-   
+    margin-right: 5px;
+    font-size: 18px;
+}
+.bg{
+    background-image: url("https://static.wixstatic.com/media/11062b_40a304aeb9034bc187226c259aaa4ca3f000.jpg/v1/fill/w_1519,h_710,al_c,q_85,usm_0.33_1.00_0.00,enc_auto/11062b_40a304aeb9034bc187226c259aaa4ca3f000.jpg");
+    background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+}
+
+.bg img {
+    width: 100vw;
+    height: 100vh;
+}
+
+.top1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -10px;
+    margin-right: 500px;
+    margin-left: 50px;
+}
+.top2{
+    margin-left: 80px;
+}
+.slide{
+    /* background: transparent; */
+
+}
+.slide span{
+    color: rgb(0, 0, 0);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .stick {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar {
+        flex-direction: column;
+        /* height: auto; */
+    }
+
+    .navbar div {
+        /* margin: 10px 0; */
+    }
+
+    .click, .readmore, .edit {
+        margin-top: 10px;
+    }
 }

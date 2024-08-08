@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Admission Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>College Admission Form</h1>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+                <br>
+<br>
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+                <br>
+<br>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+                <br>
+                <br>
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <br>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <legend>Academic Information</legend>
+                <br>
+                
+                <label for="highSchool">High School:</label>
+                <input type="text" id="highSchool" name="highSchool" required>
+                <br>
+                <br>
+                <label for="graduationYear">Year of Graduation:</label>
+                <input type="number" id="graduationYear" name="graduationYear" required>
+                <br>
+                <br>
+                <label for="gpa">GPA:</label>
+                <input type="number" step="0.01" id="gpa" name="gpa" required>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <legend>Upload Documents</legend> <br>
+                <label for="transcript">High School Transcript:</label>
+                <input type="file" id="transcript" name="transcript" required>
+                <br>
+                <br>
+                <label for="recommendation">Recommendation Letter:</label>
+                <input type="file" id="recommendation" name="recommendation" required>
+            </fieldset>
+            <br>
+            
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+</body>
+</html>
