@@ -1,0 +1,78 @@
+/* Custom CSS */
+.hero-section {
+    background-image: url('https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/About-banner.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color: #3e5e42;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+}
+
+.hero-section .btn {
+    background-color: #6da965;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero-section .btn:hover {
+    background-color: #59804e;
+}
+
+.cards .card, .cards .card1 {
+    border: 4px solid black;
+}
+
+.cards .card1 img {
+    max-width: 100%;
+    height: 50%;
+}
+.card{
+  margin-top: 18vh;
+    padding: 20px;
+    background: rgb(109,169,101);
+background: linear-gradient(90deg, rgba(109,169,101,1) 0%, rgba(255,255,255,1) 73%);
+    
+}
+.card1{
+    width: 30vw;
+    background: rgb(109,169,101);
+background: linear-gradient(90deg, rgba(109,169,101,1) 0%, rgba(255,255,255,1) 73%);
+}
+.card p{
+    padding: 20px;
+}
+.card a{
+    background-color: #6da965;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 2px solid black;
+}
