@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,39 +11,83 @@
     <link href="style.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 </head>
+
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">EARTH STORE</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Shop</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-user"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
-                    </li>
-                </ul>
-            </div>
+   <!-- Navbar -->
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">EARTH STORE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home-section" data-toggle="collapse" data-target="#home-section">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-section" data-toggle="collapse" data-target="#about-section">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#shop-section" data-toggle="collapse" data-target="#shop-section">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact-section" data-toggle="collapse" data-target="#contact-section">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-user"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
+
+   <!-- Home Section (Initially Hidden) -->
+<section id="home-section" class="collapse">
+    <div class="container py-5">
+        <h1>Welcome to Earth Store</h1>
+        <p>Discover a world of eco-friendly products, made with love for our planet. Shop sustainable, live responsibly.</p>
+        <a href="#shop-section" class="btn btn-success btn-lg mt-4" data-toggle="collapse" data-target="#shop-section">Explore Our Collection</a>
+    </div>
+</section>
+
+<!-- About Us Section (Initially Hidden) -->
+<section id="about-section" class="collapse about-section py-5 bg-light">
+    <div class="container">
+        <h2>About Earth Store</h2>
+        <p>At Earth Store, we are committed to promoting a sustainable lifestyle. Our mission is to provide eco-friendly, ethically sourced products that help reduce our impact on the environment. We believe that small changes can make a big difference, and we strive to inspire our customers to make more conscious choices every day.</p>
+        <p>Our products are carefully selected to meet the highest standards of sustainability, from organic materials to zero-waste packaging. Join us in our journey towards a greener future.</p>
+    </div>
+</section>
+
+<!-- Shop Section (Initially Hidden) -->
+<section id="shop-section" class="collapse shop-section py-5">
+    <div class="container">
+        <h2>Shop Our Collection</h2>
+        <p>Explore our wide range of eco-friendly products designed to support a sustainable lifestyle. From reusable essentials to organic goods, we have something for everyone.</p>
+    </div>
+</section>
+
+<!-- Contact Section (Initially Hidden) -->
+<section id="contact-section" class="collapse contact-section py-5">
+    <div class="container text-center">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! Whether you have a question, feedback, or just want to say hello, feel free to reach out.</p>
+        <div class="contact-details mt-4">
+            <p><i class="fas fa-envelope"></i> Email: support@earthstore.com</p>
+            <p><i class="fas fa-phone"></i> Phone: +123-456-7890</p>
+            <p><i class="fas fa-map-marker-alt"></i> Address: 123 Green Street, Eco City, Earth</p>
+        </div>
+    </div>
+</section>
+
+
 
     <!-- Hero Section -->
     <section class="hero-section">
@@ -65,10 +110,14 @@
             </div>
             <div class="col-md-6">
                 <div class="card1">
-                    <img src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/Our-Mission-min.jpg" class="card-img-top" alt="..." >
+                    <img src="https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/Our-Mission-min.jpg"
+                        class="card-img-top" alt="...">
                     <div class="card-body">
                         <h2 class="card-title text-center">OUR MISSION</h2>
-                        <p class="card-text">Hello, my name is Tyler Moore and with the help of many people I made this template. I made it so it is super easy to update and so that it flows perfectly with my tutorials. Lots of love and hundreds of hours went into making it. I hope you love it as much as I do.
+                        <p class="card-text">Hello, my name is Tyler Moore and with the help of many people I made this
+                            template. I made it so it is super easy to update and so that it flows perfectly with my
+                            tutorials. Lots of love and hundreds of hours went into making it. I hope you love it as
+                            much as I do.
                             <br><br>
                             I wish you the best of luck with your business, enjoy the adventure.
                         </p>
@@ -77,11 +126,14 @@
             </div>
         </div>
     </section>
-    <footer >
+    <footer>
         <center>
-        Copyright © 2024 Planet Earth Store
-        </footer>
+            Copyright © 2024 Planet Earth Store
+    </footer>
     </center>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
