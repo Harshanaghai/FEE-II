@@ -1,8 +1,16 @@
-/* Custom CSS */
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url('https://www.freepik.com/free-photos-vectors/earth-day-background');
+    background-size: cover;
+    background-position: center ;
+}
 .hero-section {
     background-image: url('https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/About-banner.jpg');
     background-size: cover;
-    background-position: center center;
+    background-position: center ;
     height: 100vh;
     color: #3e5e42;
     text-align: center;
@@ -75,4 +83,46 @@ background: linear-gradient(90deg, rgba(109,169,101,1) 0%, rgba(255,255,255,1) 7
     border-radius: 5px;
     text-decoration: none;
     border: 2px solid black;
+}
+footer{
+    color: black;
+    font-weight: 800;
+    border: 2px solid black;
+}
+.username{
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.password{
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.mno{
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+}
+#user-section h2{
+    color: #6da965;
+
+}
+#user-section{
+    border: 5px solid #59804e;
+    border-left: 10px solid #59804e;
+    border-right: 10px solid #59804e;
+}
+#login{
+    margin-left: 50px;
+    height: 40px;
+    width: 80px;
+    color: white;
+    background-color: #6da965;
+    border: 3px solid #6da965;
+    border-radius: 10px;
 }
