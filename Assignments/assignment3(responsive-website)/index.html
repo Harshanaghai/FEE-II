@@ -5,9 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Earth Store</title>
-    <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
     <link href="style.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 </head>
@@ -38,26 +36,23 @@
                     <a class="nav-link" href="contact-section" data-toggle="collapse" data-target="#contact-section">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-user"></i></a>
+                    <a class="nav-link" href="#user-section" data-toggle="collapse" data-target="#user-section"><i class="fas fa-user"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                    <a class="nav-link" href="" ><i class="fas fa-shopping-cart"></i></a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
 
-   <!-- Home Section (Initially Hidden) -->
 <section id="home-section" class="collapse">
     <div class="container py-5">
         <h1>Welcome to Earth Store</h1>
         <p>Discover a world of eco-friendly products, made with love for our planet. Shop sustainable, live responsibly.</p>
-        <a href="#shop-section" class="btn btn-success btn-lg mt-4" data-toggle="collapse" data-target="#shop-section">Explore Our Collection</a>
+        <a href="#shop-section" class="btn btn-success btn-lg " data-toggle="collapse" data-target="#shop-section">Explore Our Collection</a>
     </div>
 </section>
-
-<!-- About Us Section (Initially Hidden) -->
 <section id="about-section" class="collapse about-section py-5 bg-light">
     <div class="container">
         <h2>About Earth Store</h2>
@@ -65,8 +60,6 @@
         <p>Our products are carefully selected to meet the highest standards of sustainability, from organic materials to zero-waste packaging. Join us in our journey towards a greener future.</p>
     </div>
 </section>
-
-<!-- Shop Section (Initially Hidden) -->
 <section id="shop-section" class="collapse shop-section py-5">
     <div class="container">
         <h2>Shop Our Collection</h2>
@@ -74,29 +67,43 @@
     </div>
 </section>
 
-<!-- Contact Section (Initially Hidden) -->
 <section id="contact-section" class="collapse contact-section py-5">
     <div class="container text-center">
         <h2>Contact Us</h2>
         <p>We'd love to hear from you! Whether you have a question, feedback, or just want to say hello, feel free to reach out.</p>
-        <div class="contact-details mt-4">
+        <div class="contact-details">
             <p><i class="fas fa-envelope"></i> Email: support@earthstore.com</p>
             <p><i class="fas fa-phone"></i> Phone: +123-456-7890</p>
             <p><i class="fas fa-map-marker-alt"></i> Address: 123 Green Street, Eco City, Earth</p>
         </div>
     </div>
 </section>
+<section id="user-section" class="collapse user-section py-5">
+   <div class="container text-center">
+    <h2>ENTER YOUR DETAILS TO LOGIN</h2>
+    <form action="#" method="post">
+<label for="username" >Username: </label>
+<input type="text" size="20" required class="username">
+<br>
+<label for="password">Password: &nbsp;</label>
+<input type="password" required  class="password">
+<br>
+<label for="mno">Mobile No: </label>
+<input type="tel" required class="mno">
+<br><br>
+<input type="button" value="Sign-In" id="login">
 
 
+    </form>
+</div>
+</section>
 
-    <!-- Hero Section -->
     <section class="hero-section">
         <h1>EARTH</h1>
         <p>MULTIPURPOSE STORE</p>
         <a href="#" class="btn btn-lg">Shop Now</a>
     </section>
 
-    <!-- Cards Section -->
     <section class="cards container my-5">
         <div class="row">
             <div class="col-md-6">
